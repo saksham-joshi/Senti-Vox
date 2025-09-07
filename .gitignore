@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# experimental file for local
+experi.*
+
 # C extensions
 *.so
 
