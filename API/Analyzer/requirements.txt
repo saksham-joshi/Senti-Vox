@@ -1,0 +1,2 @@
+googletrans==4.0.2;
+pydantic==2.11.7;
