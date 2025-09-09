@@ -1,15 +1,10 @@
-from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import JSONResponse
-from fastapi.exceptions import RequestValidationError
-from pydantic import BaseModel, ValidationError
-import json
-from __init__ import *
+from imports import *
 
 # Initialize FastAPI app
 app = FastAPI(
-    title="SentiVox API",
-    description="Sentiment Analysis API for E-consultation module of Ministry of Corporate Affairs of India",
-    version="1.0.0"
+    title= SentiVox.Config.APP_NAME,
+    description= SentiVox.Config.APP_DESC,
+    version= SentiVox.Config.APP_VERSION
 )
 
 # Dummy function to simulate sentiment analysis - replace with your actual analysis module
