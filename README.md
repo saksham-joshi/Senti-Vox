@@ -1,13 +1,6 @@
 # Senti-Vox
 A complete package for sentiment analysis using python with great speed and compatibility.
 
-## 🧑‍🤝‍🧑 Collaborators:
-
-> FrontEnd: ```Harshit``` + ```Mohit```\
-> BackEnd: ```Chetan``` + ```Aaditya```\
-> API:     ```Saksham```\
-> Analyzer: ```Deepa``` + ```Saksham```
-
 ---
 ## 📝**Coding Convention**
 - **Folder names** : ```Capitalised separated by underscore.```
